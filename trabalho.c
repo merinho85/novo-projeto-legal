@@ -400,4 +400,5 @@ void aprovado(aluno *dados, int i){
         media_geral = media_geral+dados[j].media;
     }
     printf("\n\tA quantidade de alunos aprovados e: %i\n\tA quantidade de alunos reprovados e: %i\n\tA media geral e: %.2f\n\n", aprov, reprov, media_geral/i);
+    return 0;
 }
